@@ -25,7 +25,7 @@ The text-based console application allows users to search for book information b
 ### Usage
 
 Run the console application using:
-```bash
+```
 python library_search_console.py
 
 

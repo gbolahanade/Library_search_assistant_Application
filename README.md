@@ -30,11 +30,11 @@ python library_search_console.py```
 
 
 
-## Part II: Tkinter-Based GUI Application
+Part II: Tkinter-Based GUI Application
 
 The Tkinter-based GUI application provides a graphical interface for users to search for book information.
 
-### Features
+Features
 
 1. Radio buttons to select the search option:
    - Search by subject name or part-name
@@ -43,7 +43,7 @@ The Tkinter-based GUI application provides a graphical interface for users to se
 2. Text entry for user input based on the selection.
 3. Display the matching classmark along with its location and subject name(s) in a text box.
 
-### Usage
+Usage
 
 Run the GUI application using:
 ```bash

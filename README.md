@@ -26,9 +26,8 @@ The text-based console application allows users to search for book information b
 
 Run the console application using:
 ```bash
-python library_search_console.py```
-
-
+python library_search_console.py
+```
 
 Part II: Tkinter-Based GUI Application
 

@@ -47,3 +47,53 @@ The Tkinter-based GUI application provides a graphical interface for users to se
 Run the GUI application using:
 ```bash
 python library_search_gui.py
+```
+
+## Common Functionality
+
+The common functionality for both applications is encapsulated in library_search_common.py. This module contains functions for reading CSV files, getting locations by classmark, and retrieving subject names by classmark.
+
+### Functions
+
+- read_csv(file_name): Reads data from a CSV file and returns it as a list.
+- get_location(classmark, classmarks_data): Returns the location of a given classmark.
+- get_subject_names(classmark, subjects_data): Returns a list of subject names for a given classmark.
+
+## CSV Files
+
+The application relies on two CSV files:
+
+1. subjects.csv: Contains a list of subjects and classmarks.
+2. locations.csv: Contains a list of classmarks and locations
+
+## How to Run
+
+1. Ensure you have Python installed on your system.
+2. Clone the repository:
+```bash
+git clone https://github.com/yourusername/library-search-app.git
+```
+3. Navigate to the project directory:
+```bash
+cd library-search-app
+```
+4. Ensure you have the required CSV files (subjects.csv and locations.csv) in the project directory.
+5. Run the console application:
+```bash
+python library_search_console.py
+```
+6. Run the GUI application:
+```bash
+python library_search_gui.py
+```
+## Project Structure
+```bash
+library-search-app/
+│
+├── library_search_common.py   # Common functionality
+├── library_search_console.py  # Console application
+├── library_search_gui.py      # GUI application
+├── subjects.csv               # Sample subjects data
+├── locations.csv              # Sample locations data
+└── README.md                  # Project documentation
+```
